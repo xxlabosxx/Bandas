@@ -1,155 +1,149 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>As 10 Bandas Mais Famosas</title>
-        <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 0;
-        color: #333;
-      }
-      header {
-        text-align: center;
-        background-color: #222;
-        color: white;
-        padding: 20px 0;
-      }
-      h1 {
-        margin: 0;
-      }
-      a {
-        color: #3498db;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>As 5 Bandas Mais Famosas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            background-color: #222;
+            color: white;
+            padding: 30px 0;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        main {
+            padding: 20px;
+        }
+        nav {
+            background-color: #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        nav ol {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        nav li a {
+            color: #3498db;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-bottom: 5px;
+            width: 80%;
+            text-align: center;
+        }
+        section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        section ul li {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+        }
+        section ul li h2 {
+            color: #2c3e50;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        section ul li a {
+            display: block;
+            margin-bottom: 10px;
+        }
     </style>
-    </head>
-    <body>
-        <header>
-            <h1>As 10 Bandas Mais Famosas</h1>
-        </header>
+</head>
+<body>
+    <header>
+        <h1>As 5 Bandas Mais Famosas</h1>
+    </header>
 
-        <main>
-            <nav>
-                <ol>
-                    <li><a href="#acdc">AC/DC</a></li>
-                    <li><a href="#beatles">The Beatles</a></li>
-                    <li><a href="#guns">Guns N' Roses</a></li>
-                    <li><a href="#metallica">Metallica</a></li>
-                    <li><a href="#nirvana">Nirvana</a></li>
-                    <!-- <li><a href="#pinkfloyd">Pink Floyd</a></li>
-                    <li><a href="#redhotchili">Red Hot Chili Peppers</a></li>
-                    <li><a href="#thewho">The Who</a></li>
-                    <li><a href="#zeppelin">Led Zeppelin</a></li>
-                    <li><a href="#rollingstones">The Rolling Stones</a></li> -->
-                </ol>
-            </nav>
+    <main>
+        <nav>
+            <ol>
+                <li><a href="#acdc">AC/DC</a></li>
+                <li><a href="#beatles">The Beatles</a></li>
+                <li><a href="#guns">Guns N' Roses</a></li>
+                <li><a href="#metallica">Metallica</a></li>
+                <li><a href="#nirvana">Nirvana</a></li>
+            </ol>
+        </nav>
 
-            <section>
-                <ul>
-                    <li id="acdc">
-                        <h2>1. AC/DC</h2>
-                        <a href="/pages/acdc.html">
-                        <img src="/img/acdc.jpg"
-                            alt="Membros da banda AC/DC no palco" />
-                        </a>
-                    </li>
-                    <li id="beatles">
-                        <h2>2. The Beatles</h2>
-                        <a href="/pages/beatles.html">
-                        <img src="/img/beatles-abbey-road-620-original2.jpg" alt="The Beatles atravessando a Abbey Road" /> 
-                        </a>
-                        <div class="band-info">
+        <section>
+            <ul>
+                <li id="acdc">
+                    <h2>1. AC/DC</h2>
+                    <a href="/Bandas/pages/acdc.html">
+                        <img src="/Bandas//img/acdc.jpg"
+                             alt="Membros da banda AC/DC no palco" />
+                    </a>
+                    <div class="band-info">
                         </div>
-                    </li>
-                    <li id="guns">
-                        <h2>3. Guns N' Roses</h2>
-                        <a href="/pages/Guns.html">
+                </li>
+                <li id="beatles">
+                    <h2>2. The Beatles</h2>
+                    <a href="/Bandas//pages/beatles.html">
+                        <img src="/Bandas//img/beatles-abbey-road-620-original2.jpg" alt="The Beatles atravessando a Abbey Road" />
+                    </a>
+                    <div class="band-info">
+                        </div>
+                </li>
+                <li id="guns">
+                    <h2>3. Guns N' Roses</h2>
+                    <a href="/Bandas//pages/Guns.html">
                         <img
-                            src="/img/Guns_n´Roses_Palacio_de_los_Deportes_30-11-2016_(31366316670).jpg"
+                            src="/Bandas//img/Guns_n´Roses_Palacio_de_los_Deportes_30-11-2016_(31366316670).jpg"
                             alt="Guns N' Roses em performance ao vivo" />
-                        </a>
-                        <div class="band-info">
+                    </a>
+                    <div class="band-info">
                         </div>
-                    </li>
-                    <li id="metallica">
-                        <h2>4. Metallica</h2>
-                        <a href="/pages/metalica.html">
-                        <img src="/img/Metallica_March_2024.jpg"
-                            alt="Membros do Metallica no palco durante um show">
-                        </a>
-                        <div class="band-info">
+                </li>
+                <li id="metallica">
+                    <h2>4. Metallica</h2>
+                    <a href="/Bandas//pages/metalica.html">
+                        <img src="/Bandas/img/Metallica_March_2024.jpg"
+                             alt="Membros do Metallica no palco durante um show">
+                    </a>
+                    <div class="band-info">
                         </div>
-                    </li>
-                    <li id="nirvana">
-                        <h2>5. Nirvana</h2>
-                        <a href="/pages/nirvana.html">
+                </li>
+                <li id="nirvana">
+                    <h2>5. Nirvana</h2>
+                    <a href="/Bandas//pages/nirvana.html">
                         <img
-                            src="/img/nirvana-a-trajetoria-de-uma-das-bandas-de-maior-sucesso-de-todos-os-tempos.jpg"
-                            alt="Kurt Cobain durante performance do Nirvana" />
-                        </a>
-                        <div class="band-info">
+                            src="/Bandas/img/nirvana-a-trajetoria-de-uma-das-bandas-de-maior-sucesso-de-todos-os-tempos.jpg"
+                            alt="durante performance do Nirvana" />
+                    </a>
+                    <div class="band-info">
                         </div>
-                    </li>
-<!--                     
-                    <li id="pinkfloyd">
-                        <h2>6. Pink Floyd</h2>
-                        <img src="/img/Pink_Floyd,_1971.jpg"
-                            alt="Pink Floyd durante um show" />
-                        <div class="band-info">
-                            <p>Pink Floyd é conhecido por seus álbuns
-                                conceituais e performances psicodélicas
-                                inovadoras.</p>
-                        </div>
-                    </li>
-                    <li id="redhotchili">
-                        <h2>7. Red Hot Chili Peppers</h2>
-                        <img src="/img/red-hot-chili-peppers.jpg"
-                            alt="Red Hot Chili Peppers em um show ao vivo" />
-                        <div class="band-info">
-                            <p>Com uma mistura única de funk, rock e punk, os
-                                Red Hot Chili Peppers marcaram gerações com seus
-                                álbuns.</p>
-                        </div>
-                    </li>
-                    <li id="thewho">
-                        <h2>8. The Who</h2>
-                        <img src="/img/The-Who.jpg"
-                            alt="The Who em uma apresentação ao vivo" />
-                        <div class="band-info">
-                            <p>The Who é um dos pilares do rock clássico, famoso
-                                por sua energia explosiva nos shows.</p>
-                        </div>
-                    </li>
-                    <li id="zeppelin">
-                        <h2>9. Led Zeppelin</h2>
-                        <img src="/img/340cb5e0-eb1a-11ef-a819-277e390a7a08.jpg"
-                            alt="Led Zeppelin em um show lendário" />
-                        <div class="band-info">
-                            <p>Led Zeppelin é uma das maiores influências do
-                                rock, com seu estilo pesado e inovador, repleto
-                                de solos memoráveis.</p>
-                        </div>
-                    </li>
-                    <li id="rollingstones">
-                        <h2>10. The Rolling Stones</h2>
-                        <img src="/img/The-Rolling-Stones.jpg"
-                            alt="The Rolling Stones no palco durante uma apresentação" />
-                        <div class="band-info">
-                            <p>Os Rolling Stones são uma das bandas mais
-                                duradouras e influentes da história do rock,
-                                conhecidos por sua música e atitude.</p>
-                        </div> -->
-                    </li>
-                </ul>
-            </section>
-        </main>
-    </body>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
 </html>
